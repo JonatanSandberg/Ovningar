@@ -1,0 +1,44 @@
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+
+p, span { 
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+}
+  
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+  
+h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+  
+p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+  
+ul li {
+    font-size: 1.3em;
+}
+
+.galleri img {
+    padding: 5px;  /* Adjust pixel value for desired padding */
+}
+  
