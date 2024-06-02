@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    background-color: lightgray;
+}
+
+.flag {
+    display: flex;
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    
+}
+
+.circle {
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    width: 100px; 
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
