@@ -1,0 +1,176 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color:  seagreen;
+}
+
+.menu-icon {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: seagreen;
+}
+
+h1 {
+    font-size: 68px;
+    color: black;
+    margin: 0;
+}
+
+
+
+.image-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: -86px;
+}
+
+.image-container img {
+    width: 200px;
+    height: auto;
+}
+
+.main-content {
+    background-color: black;
+    color: white;
+    padding: 3rem ;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    gap: 20px;
+}
+
+.container h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.card {
+    background-color: white;
+    color: black;
+    text-align: left;
+    border-radius: 8 px;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+
+.card-img {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.card h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+
+.remove-btn {
+    background-color: #FF4500;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+.cart-table th, .cart-table td {
+    padding: 0.75rem;
+}
+
+
+
+.cart-table th {
+    background-color: #444;
+    text-align: left;
+    background-color: #ED363633;
+
+}
+
+.checkout-btn-container {
+    text-align: right;
+}
+
+.checkout-btn {
+    background-color: #FF4500;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 1 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex: 1 1 200px;
+    margin-bottom: 0.5rem;
+}
+
+.footer-column h3 {
+    font-size: 2.5rem;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;    
+}
+
+.social-media-icons a {
+    display: inline-block;
+    margin-right: 0.5rem;
+}
